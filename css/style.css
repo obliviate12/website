@@ -1,0 +1,198 @@
+body {
+	background: radial-gradient(#ededed, #ededed, #ededed, #ffffff);
+}
+
+@media(min-width: 1200px) {
+	.container {
+		max-width: 1200px; 
+	}
+}
+
+@media(max-width: 992px) {
+	.container {
+		max-width: 970px; 
+	}
+}
+
+@media(max-width: 768px) {
+	.container {
+		max-width: 735px; 
+	}
+	.header {
+		margin-top: 30px;
+	}
+}
+
+@media(max-width: 576px) {
+	.container {
+		max-width: 520px; 
+	}
+	.header {
+		margin-top: 30px;
+	}
+}
+
+.card {
+	border: 0px;
+	border-radius: 5px;
+}
+
+.navhome {
+	background-color: #425cbb;
+	margin-left: 15px;
+	border-radius: 5px 0px 0px 5px;
+	padding: 15px;
+}
+
+.navsocial {
+	margin-left: auto;
+	padding: 15px;
+	margin-right: 15px;
+}
+
+.navsocial a .social{
+	color: #000000;
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.social:hover {
+	transform: scale(1.2);
+}
+
+.btn:hover {
+	background-color: #213788;
+	border: 1px solid #213788;
+}
+
+#navbar {
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+}
+
+.fa-home:hover {
+	transform: scale(1.2);
+}
+
+.nav-link:hover {
+	filter: drop-shadow(0 0 0.5rem #425cbb35);
+}
+
+#navbar a {
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.biocard {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	border-top: 3px solid #425cbb;
+}
+
+.icon {
+	width: 40px;
+	height: 40px;
+	background: #425cbb;
+	border-radius: 30px;
+	margin-left: 20px; 
+	margin-top: -40px; 
+	position: absolute;
+	filter: drop-shadow(0 0 0.75rem #425cbb85);
+}
+
+.icon:hover {
+	transform: scale(1.05);
+}
+
+.list-begin:hover {
+	transform: scale(1.05);
+}
+
+.lc-checks {
+	list-style: none;
+	position: relative;
+	padding-top: 15px;
+	padding-left: 36px;
+	margin-top: 20px;
+}
+
+.lc-checks:after {
+	content: '';
+	position: absolute;
+	top: 0; 
+	left: 40px;
+	height: 100%;
+	width: 1px;
+	background: #425cbb;	
+}
+
+.lc-checks li {
+	height: 35px;
+}
+
+.lc-checks li:last-child {
+	height: 0px;
+}
+
+.lc-checks__feature {
+	position: absolute;
+	margin-left: 30px;
+	margin-top: -6px;
+	font-size: 14px;
+}
+
+.lc-checks__check {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: #425cbb;
+	border-radius: 5px;
+}
+
+.biocard-content {
+	padding-bottom: 30px;
+}
+
+.btn {
+	background-color: #425cbb;
+	border: 1px solid #425cbb;
+}
+
+.custombtn {
+	color: #ffffff;
+	padding: 2px;
+}
+
+.main {
+	margin-top: 30px;
+}
+
+.list-group-item {
+	border: 0px;
+}
+
+.title {
+	font-size: 21px;
+}
+
+.title:after {
+	content: "";
+	display: block;
+	height: 2px;
+	background: linear-gradient(to left, rgba(66, 92, 187, 0.8), #ffffff);
+	margin-top: -5px;
+}
+
+.card-text {
+	font-size: 14px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
